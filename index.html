@@ -5,6 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+
+input:focus{
+
+
+    font: 900;
+    font-size: xx-small;
+    color: brown;
+}
+p:nth-child(2n){
+
+    background-color: blue;
+}
+.pnk:visited
+{
+    color: red;
+}
+body{
+
+    counter-reset: section;
+}
+
+p::before{
+
+    
+    counter-increment: section;
+    content: "Crush" counter(section);
+
+
+}
+    </style>
 </head>
 <body>
     <h1>My first website</h1>
@@ -23,7 +54,21 @@
 
 <p> Hi lover boy</p>
 
-    
+    <input name="email" type="text">
+    <br>
+    <input name="Password" type="text">
+    <br>
+    <a class="pnk" href="http://www.youtube.com">youtube</a>
+    <a href="http://www.youtube.com">Facebook</a>
+   
+        
+    <p>rahim</p>
+    <p>rahim</p>
+    <p>rahim</p>
+    <p>rahim</p>
+    <p>rahim</p>
+
+
 
 </body>
 </html>
